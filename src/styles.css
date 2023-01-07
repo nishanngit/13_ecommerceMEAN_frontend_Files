@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:ital,wght@0,300;1,100&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.card-img-top{
+  width:250px;
+  height:350px;
+  transition: 0.5s;
+}
+.card-img-top:hover{
+/*   scale:1.25; */
+  transform: scale(1.25);
+  transition: 0.5s;
+}
